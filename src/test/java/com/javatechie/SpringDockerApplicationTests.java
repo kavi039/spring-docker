@@ -17,7 +17,7 @@ class SpringDockerApplicationTests {
 	public void testGreetingEndpoint() throws Exception{
 		mockMvc.perform(MockMvcRequestBuilders.get("/greeting"))
 				.andExpect(MockMvcResultMatchers.status().isOk())
-				.andExpect(MockMvcResultMatchers.content().string("welcome to java docker development"));
+				.andExpect(MockMvcResultMatchers.content().string("w1elcome to java docker development"));
 	}
 
 }
