@@ -11,6 +11,7 @@ public class SpringDockerApplication {
 
 	@GetMapping("/greeting")
 	public String greeting(){
+		System.out.println("123456789");
 		return "welcome to java docker development";
 	}
 
